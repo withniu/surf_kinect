@@ -35,8 +35,8 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 PROJECT (SURFGPU)
 
-INCLUDE(${CMAKE_SOURCE_DIR}/CMake/cuda/FindCUDA.cmake)
-include(${CMAKE_SOURCE_DIR}/CMake/FindCUDPP.cmake)
+INCLUDE(${CMAKE_SOURCE_DIR}/src/CMake/cuda/FindCUDA.cmake)
+include(${CMAKE_SOURCE_DIR}/src/CMake/FindCUDPP.cmake)
 find_package(OpenCV REQUIRED)
 
 #set(CUDA_BUILD_CUBIN ON)
